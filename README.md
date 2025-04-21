@@ -1,12 +1,28 @@
-# React + Vite
+# Mental Health Chatbot - MindfulCompanion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A caring and compassionate mental health support chatbot designed to provide emotional support, active listening, and evidence-based guidance to users seeking help with their mental wellbeing.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Empathetic conversation with users about mental health concerns
+- Powered by Google's Gemini AI model
+- Responsive design for all devices
+- Evidence-based approaches from cognitive behavioral therapy, mindfulness, and positive psychology
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js for the frontend
+- Vite as the build tool
+- Google Generative AI API for the chatbot functionality
+- Vercel for deployment
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Create a `.env` file with your Google API key: `VITE_GOOGLE_API_KEY=your-api-key`
+4. Run the development server with `npm run dev`
+
+## Deployment
+
+This project is configured for deployment on Vercel. Make sure to set the `VITE_GOOGLE_API_KEY` environment variable in your Vercel project settings.
